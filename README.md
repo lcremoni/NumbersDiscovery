@@ -13,12 +13,13 @@ pip install numbersDiscovery
 ## Usage
 
 ```python
-import NumbersDiscovery
-
-NumbersDiscovery.natural(100) # returns first 100 natural numbers
-NumbersDiscovery.integer(-50,50) # returns integer nubers from -50 to 50
-NumbersDiscovery.line() # prints the numbers line
+python dnumb.py [command] [args]
 ```
+command=natural args=n returns first n natural numbers
+commnad=multiple args=n k returns first multiples of k less then n
+command=compose args=k returns k compositions and False if k is not composite
+command=composite args=n returns composite numbers less then n
+command=prime args=n returns prime numbers less then n
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
